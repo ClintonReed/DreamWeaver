@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.banner-home {
+	background-image: url("../IMG/cassete tape ryb.jpg");
+	width: 90%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
