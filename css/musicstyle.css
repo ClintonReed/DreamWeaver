@@ -6,6 +6,9 @@ body {
 	font-family: Arkitech;
 }
 
+body p {
+	padding: 0 20px 0 20px;
+}
 
 .banner-home {
 	background-image: url("../IMG/cassete tape rybs.jpg");
@@ -39,7 +42,6 @@ nav ul {
 }
 
 .art-one {
-	text-align: center;
 	background-color: aliceblue;
 }
 
@@ -50,12 +52,12 @@ nav ul {
 	background-size: cover;
 }
 .art-one p {
-	padding: 0 20px;
+	text-align: center;
+	padding: 0 20px 0 20px;
 }
 
 .art-two, .art-three {
 	text-align: center;
-	
 }
 
 .article-two-img {
@@ -82,5 +84,4 @@ footer {
 	height: 300px;
 	background-size: cover;
 	background-position: center;
-
 }
