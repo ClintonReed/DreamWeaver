@@ -59,17 +59,28 @@ nav ul {
 }
 
 .article-two-img {
-	width: 75%;
 	height: 555px;
+	width: 75%;
 	margin: auto;
-	background-image: url("../IMG/macro-photo-of-piano-keys-191240.jpg");
+	background-image: url("../IMG/macro-photo-of-piano-keys-191240-small.jpg");
 	background-position: center;
 }
 
 .article-three-img {
-	background-image: url("../IMG/brown-and-black-cut-away-acoustic-guitar-1010519.jpg");
-	width: 75%;
+	background-image: url("../IMG/brown-and-black-cut-away-acoustic-guitar-1010519 -small.jpg");
 	height: 555px;
+	width: 75%;
 	margin: auto;
 	background-position: center;
+}
+
+footer {
+	margin-top: 100px;
+	padding-top: 100px;
+	background-image: url("../IMG/black-record-vinyl-167092.jpg");
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+
 }
