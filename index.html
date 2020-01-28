@@ -2,16 +2,34 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Music Site</title>
 <link rel="stylesheet" href="css/musicstyle.css">
+<script src="https://kit.fontawesome.com/fbb5f5a3d3.js" crossorigin="anonymous"></script>
+<script>
+	function openMenu(){
+		document.getElementById('menu').style.width='300px';
+	}
+	function closeMenu(){
+		document.getElementById('menu').style.width='0px';
+	}
+</script>
 </head>
 
 <body>
 	<div class="page-wrapper">
 		<header>
 			<div class="banner-home"></div>
-			<nav>
+			
+			<div id="open">
+				<a href="#" onClick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+			
+			<nav id="menu">
 				<ul>
+					<a href="#" onClick="closeMenu()"><i class="fas fa-times"></i></a>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
@@ -37,8 +55,11 @@
 			</section>
 			<article class="art-one">
 				<div class="article-one-img"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptas consequuntur quaerat unde nulla voluptates, fugiat, ducimus quos ea eveniet veritatis cupiditate sint ab. Numquam, assumenda, laboriosam? Atque, earum, dolore.</p>
+				<div class="art-text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptas consequuntur quaerat unde nulla voluptates, fugiat, ducimus quos ea eveniet veritatis cupiditate sint ab. Numquam, assumenda, laboriosam? Atque, earum, dolore.</p>
+				</div>
 			</article>
+			<div class="article-bottom">
 			<article class="art-two">
 				<div class="article-two-img"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -47,6 +68,7 @@
 				<div class="article-three-img"></div>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 			</article>
+			</div>
 		</main>
 		<footer>
 			

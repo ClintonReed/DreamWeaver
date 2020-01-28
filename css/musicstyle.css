@@ -23,6 +23,22 @@ body p {
 
 /* NAV */
 
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(131,133,185,.9);
+	height: 100%;
+	overflow: hidden;
+	transition: 0.7s;
+}
+
+#open {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+}
+
 nav ul li a {
 	text-decoration: none;
 	color: black;
@@ -101,19 +117,20 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (min-width:500px) {
-	nav ul {
+/*	nav ul {
 		text-align: center;
 		display:flex;
 	}
 	nav ul li {
 		flex: 1;
 		margin: 5px;
-	}
+	}*/
 	.feature-images {
 		display: flex;
 	}
 	.image-one {
 		flex: 1;
+		width: auto;
 	}
 	.art-one {
 		display: flex;
