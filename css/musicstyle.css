@@ -1,5 +1,7 @@
 /* CSS Document */
 
+/* BODY */
+
 body {
 	margin: 0;
 	background-color: #cbc8ce;
@@ -10,12 +12,16 @@ body p {
 	padding: 0 20px 0 20px;
 }
 
+/* BANNER */
+
 .banner-home {
 	background-image: url("../IMG/cassete tape rybs.jpg");
 	height: 300px;
 	background-size: cover;
 	background-position: center;
 }
+
+/* NAV */
 
 nav ul li a {
 	text-decoration: none;
@@ -28,13 +34,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #5E8FC3
+	background-color: #5E8FC3;
+	color: white;
 }
 
 nav ul {
 	list-style: none;
 	padding-left: 0;
 }
+
+/* ARICLES */
 
 .image-one {
 	text-align: center;
@@ -76,6 +85,8 @@ nav ul {
 	background-position: center;
 }
 
+/* FOOTER */
+
 footer {
 	margin-top: 100px;
 	padding-top: 100px;
@@ -84,4 +95,43 @@ footer {
 	height: 300px;
 	background-size: cover;
 	background-position: center;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:500px) {
+	nav ul {
+		text-align: center;
+		display:flex;
+	}
+	nav ul li {
+		flex: 1;
+		margin: 5px;
+	}
+	.feature-images {
+		display: flex;
+	}
+	.image-one {
+		flex: 1;
+	}
+	.art-one {
+		display: flex;
+		padding: 0;
+	}
+	.article-one-img {
+		flex: 1;
+		height: auto;
+	}
+	.art-text{
+		flex: 1;
+	}
+	.article-bottom {
+		display: flex;
+		flex: 1;
+	}
+	.article-two-img, .article-three-img {
+		width: auto;
+		margin: 10px;
+	}
 }
