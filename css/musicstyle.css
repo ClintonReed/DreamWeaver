@@ -1,9 +1,18 @@
 /* CSS Document */
+body {
+	margin: 0;
+	background-color: #f3d2ec;
+}
+
 
 .banner-home {
-	background-image: url("../IMG/cassete tape ryb.jpg");
-	width: 90%;
+	background-image: url("../IMG/cassete tape rybs.jpg");
 	height: 300px;
 	background-size: cover;
 	background-position: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
 }
